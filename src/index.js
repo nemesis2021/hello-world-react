@@ -24,7 +24,7 @@ function TodoApp() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
-    const ws = new WebSocket('wss://https://deployed-todo-app-fork-kpn5t.kinsta.app/ws');
+    const ws = new WebSocket('https://hello-world-react-tvnd8.kinsta.app/');
 
     ws.onopen = () => {
       setIsConnected(true);
